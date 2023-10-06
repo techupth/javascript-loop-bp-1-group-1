@@ -85,3 +85,8 @@ let orders = [
 
 let sumPurchasedAmount = 0;
 // Start coding here
+
+for (let item of orders) {
+  sumPurchasedAmount += item.productPrice * item.productQuantity;
+}
+console.log(sumPurchasedAmount);
