@@ -4,3 +4,10 @@ let newRestaurants = [];
 
 // Start coding here
 
+let i = 0;
+while (i < restaurants.length) {
+    console.log("Restaurant Name: " + menu[i]);
+  i++;
+}
+
+
