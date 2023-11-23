@@ -89,3 +89,9 @@ let maxPurchasedAmount;
 let maxPurchasedId;
 
 // Start coding here
+
+for(let i of orders.productPrice) {
+   maxPurchasedAmount = Math.max(i);
+}
+
+console.log(maxPurchasedAmount)

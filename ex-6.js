@@ -86,3 +86,8 @@ let orders = [
 let birdiePurchasedAmount;
 
 // Start coding here
+let result = []
+for(i = 0; i < orders.length;i++)
+{ result.push(orders[i].productPrice); }
+  result = Math.max(result);
+  console.log(result) 

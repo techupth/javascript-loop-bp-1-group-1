@@ -7,8 +7,7 @@ let newRestaurants = [];
 let i = 0;
 newRestaurants = restaurants
 while (i < restaurants.length) {
-    console.log("Restaurant Name: " + newRestaurants[i]);
-  i++;
+    console.log("Restaurant Name: " + newRestaurants[i]);i++;
 }
 
 
